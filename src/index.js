@@ -6,7 +6,7 @@ import express from "express";
 import productosRoutes from "./modules/productos/productos.routes.js";
 
 const app = express();
-const PORT = 3000;
+const PORT = 4100;
 
 // Middleware para parsear JSON en el body de las peticiones
 app.use(express.json());
